@@ -29,3 +29,10 @@ npx expo start
 5. Reset the project:
 
 npm run reset-project
+
+Ran `npm run reset-project`:
+
+- Metro bundler cache cleared
+- Development server restarted
+- QR codes generated for Expo Go
+- App runs in a fresh environment without old caches
