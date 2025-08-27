@@ -8,3 +8,24 @@ Set up the first mobile application using the Expo Router template and understan
 1. Navigated to project directory:
    ```bash
    cd prodev-mobile-setup
+
+
+2.  Initialize Expo project:
+
+npx create-expo-app@latest .
+
+
+3. Modify the Home Screen:
+
+   > Open app/(tabs)/index.tsx
+
+   > Change Welcome! to First App Created
+
+4. Run and test the application:
+
+npx expo start
+
+
+5. Reset the project:
+
+npm run reset-project
