@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 
-export default function App() {
+export default function Index() {
   return (
     <View style={styles.container}>
       <Text>Entry Screen - Awesome</Text>
@@ -13,12 +13,6 @@ export default function App() {
           React Native provides you a single codebase for cross platforms
         </Text>
         <Text style={styles.smallText}>ALX is awesome</Text>
-
-        <Text style={styles.largeText}>Learning daily makes you better</Text>
-        <Text style={styles.mediumText}>
-          Mobile apps run smoothly with React Native
-        </Text>
-        <Text style={styles.smallText}>Consistency is the key to mastery</Text>
       </View>
     </View>
   );
