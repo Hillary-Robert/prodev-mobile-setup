@@ -5,7 +5,6 @@ export default function EntryScreen() {
   return (
     <View style={styles.container}>
       <Text>Entry Screen - Awesome</Text>
-
       <View>
         <Text style={styles.largeText}>
           Typescript is great if you practice more
