@@ -1,11 +1,11 @@
-import { 
-  Text, 
-  View, 
-  StyleSheet, 
-  Image, 
-  ImageBackground, 
-  Dimensions, 
-  TouchableOpacity 
+import {
+  Text,
+  View,
+  StyleSheet,
+  Image,
+  ImageBackground,
+  Dimensions,
+  TouchableOpacity,
 } from "react-native";
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 
@@ -19,7 +19,6 @@ export default function Index() {
           resizeMode="cover"
         >
           <View style={styles.container}>
-            
             {/* Company Logo */}
             <View style={styles.companyLogo}>
               <Image source={require("@/assets/images/Logo.png")} />
@@ -27,8 +26,10 @@ export default function Index() {
 
             {/* Text Group */}
             <View style={styles.textGroup}>
-              <Text style={styles.textLarge}>Find your favorite place here</Text>
-              <Text style={styles.textSmall}>The best prices for over 2</Text>
+              <Text style={styles.textLarge}>
+                Find your favorite place here
+              </Text>
+              <Text style={styles.textSmall}>The best prices for over 2 </Text>
               <Text style={styles.textSmall}>million properties worldwide</Text>
             </View>
 
@@ -36,7 +37,9 @@ export default function Index() {
             <View style={{ position: "absolute", bottom: 0, width: "100%" }}>
               <View style={styles.buttonGroup}>
                 <TouchableOpacity style={styles.button}>
-                  <Text style={{ ...styles.textSmall, color: "black" }}>Join here</Text>
+                  <Text style={{ ...styles.textSmall, color: "black" }}>
+                    Join here
+                  </Text>
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.transparentButton}>
@@ -48,7 +51,6 @@ export default function Index() {
                 <Text style={{ color: "white" }}>Continue to home</Text>
               </View>
             </View>
-
           </View>
         </ImageBackground>
       </SafeAreaView>
